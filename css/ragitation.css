@@ -1,0 +1,110 @@
+body{    padding:0px;
+             margin: 0px;
+			 background-color: #e3dede;
+			 }
+	#maunber {
+            position: sticky;
+            top: 0px;
+			height:35px;
+			align-items: center;
+			display: flex;
+            background-color: #464242;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 13px;
+            top: -7px;
+        }
+
+        .left img {
+            height: 33px;
+            width: 43px;
+			    border-radius: 15px;
+            margin: 8px 0px;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: -14px auto;
+        }
+		 #nevbar li {
+            display: inline-block;
+        }
+
+        #nevbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+        }
+
+        #nevbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .right {
+            display: flex;
+			height:35px;
+            position: absolute;
+            right: 34px;
+			align-items: center;
+            top: 0px;
+        }
+
+        .right li{
+			display:inline-block;
+			color:white;
+		}
+		.right li a{
+			color:white;
+			text-decoration:none;
+			padding:0px;
+		}
+        .right li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+		.contant{
+			height:700px;
+			width:620px;
+			background-color: white;
+                        display: block;
+                        margin: 48px auto;
+			    border-radius: 28px;
+		}
+		
+		.contant h1{
+			    text-align: center;
+                color: #11749d;
+                font-size: 40px;
+                padding: 15px 0px;
+		}
+		#tdata{
+			margin:-24px 51px;
+		}
+		#tdata tr td input{
+			padding: 5px 26px;
+    margin: 9px 1px;
+			
+		}
+		#tdata tr td{
+			padding: 3px 16px;
+		}
+		
+		#tdata tr td select{
+			height: 27px;
+            width: 227px;
+		}
+		.capcher{
+			color:white; 
+			background-color:#00000061; 
+			text-align: center;
+			font-size: 25px;
+			padding: 6px 68px;
+		}
+		
+		 
+	

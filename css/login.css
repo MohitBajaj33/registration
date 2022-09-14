@@ -1,0 +1,112 @@
+body{    padding:0px;
+             margin: 0px;
+			 background-color: #e3dede;
+			 }
+	#maunber {
+            position: sticky;
+            top: 0px;
+			height:35px;
+			align-items: center;
+			display: flex;
+            background-color: #464242;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 13px;
+            top: -7px;
+        }
+
+        .left img {
+            height: 33px;
+            width: 43px;
+			    border-radius: 15px;
+            margin: 8px 0px;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: -14px auto;
+        }
+		 #nevbar li {
+            display: inline-block;
+        }
+
+        #nevbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+        }
+
+        #nevbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .right {
+            display: flex;
+			height:35px;
+            position: absolute;
+            right: 34px;
+			align-items: center;
+            top: 0px;
+        }
+
+        .right li{
+			display:inline-block;
+			color:white;
+		}
+		.right li a{
+			color:white;
+			text-decoration:none;
+			padding:0px;
+		}
+        .right li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+        
+		.content{
+			    border-radius: 50px;
+			height:500px;
+			width:500px;
+			background-color:white;
+			margin: 57px 450px;
+		}
+       .content h1{
+		   color: #11749d;
+		  font-size: 43px;
+		  text-align: center;
+		  padding: 20px 0px;
+	   }
+	   .content input{
+		   
+          height: 28px;
+          width: 50%;
+          margin: 10px 73px;
+          padding: 5px 50px;
+          border-radius: 50px;
+          text-align: center;
+          color: black;
+	   }
+	   .content a{
+		   float: right;
+           margin: 5px 14px;
+	   }
+	   .sign input{
+		       width: 71%;
+              height: 41px;
+              color: white;
+              font-size: 20px;
+              background-color: #424293;
+	   }
+	   .icon a{
+		         bottom: -35px;
+    float: right;
+    margin: 5px 14px;
+    position: relative;
+    right: 160px;
+	   }
+      
